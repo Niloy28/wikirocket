@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Search from "./Search";
 
 const NavBar = () => {
 	return (
@@ -6,6 +7,7 @@ const NavBar = () => {
 			<h1 className="font-bold text-3xl text-white grid place-content-center mb-2 md:mb-0">
 				<Link href="/">WikiRocket!</Link>
 			</h1>
+			<Search />
 		</nav>
 	);
 };
