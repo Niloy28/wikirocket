@@ -27,7 +27,7 @@ const Search = () => {
 				id="search"
 				value={search}
 				onChange={(e) => setSearch(e.target.value)}
-				className="bg-white text-xl p-2 rounded-xl w-80"
+				className="bg-white text-xl text-black p-2 rounded-xl w-80"
 				placeholder="Search"
 			/>
 			<button
